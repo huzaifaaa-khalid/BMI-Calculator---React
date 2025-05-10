@@ -56,8 +56,8 @@ function App() {
             <input type='text' placeholder='Enter Height Value' value={height} onChange={(e) => setHeight(e.target.value)} />
           </div>
           <div>
-            <button className='btn' type='submit'>Submit</button>
-            <button className='btn btn-outline' onClick={reload} type='submit'>Reload</button>
+            <button className='btn' type='submit'>Check</button>
+            <button className='btn btn-outline' onClick={reload} type='submit'>Refresh</button>
           </div>
           <div className='center'>
             <h3>Your BMI is: {bmi}</h3>
